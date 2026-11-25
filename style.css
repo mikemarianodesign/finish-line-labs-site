@@ -24,3 +24,25 @@
 .contact-options p { max-width:46ch; line-height:1.55; }
 .contact-options a { font-size:clamp(1.15rem,2.2vw,2rem); }
 @media(max-width:580px){.contact-options{grid-template-columns:1fr;gap:2rem}header.wrap,footer .wrap{flex-wrap:wrap;gap:12px}.logo{max-width:38vw}footer nav{gap:12px}}
+
+/* Link-in-bio page (/links) */
+.links-page{background:var(--paper)}
+.links{width:min(92%,560px);margin:auto;padding:40px 0 48px}
+.links-head{display:block;padding:0;text-align:center;margin-bottom:28px}
+.links-head img{display:block;margin:0 auto 14px}
+.links-head h1{font-size:clamp(40px,10vw,56px);letter-spacing:-.045em;margin:0 0 6px;line-height:1}
+.links-head p{margin:0;color:#5c5e63}
+.links section{margin-top:26px}
+.links h2{font-size:13px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;margin:0 0 10px;color:#5c5e63}
+.link-card{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid #dcdbd3;border-radius:16px;padding:14px;margin-bottom:10px}
+.link-card>img{width:64px;height:64px;flex:none;border-radius:12px;object-fit:cover;background:#e9e8e1}
+.link-card>div{min-width:0;flex:1}
+.link-card h3{font-size:26px;letter-spacing:-.03em;margin:0 0 2px}
+.link-card p{margin:0 0 10px;font-size:14px;line-height:1.4;color:#4a4c51}
+.stores{display:flex;flex-wrap:wrap;gap:8px}
+.stores a{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;background:var(--graphite);color:#fff;font-size:14px;font-weight:600;text-decoration:none}
+.stores a:hover{background:var(--citron);color:var(--graphite);text-decoration:none}
+.links-foot{justify-content:center;flex-wrap:wrap;gap:8px;margin-top:32px}
+.links-foot a{min-height:44px;display:inline-flex;align-items:center;padding:0 20px;border:1px solid var(--graphite);border-radius:999px;font-size:14px;font-weight:600}
+.links-foot a:hover{background:var(--citron);text-decoration:none}
+.links-legal{text-align:center;font-size:12px;color:#7a7c80;margin:22px 0 0}
